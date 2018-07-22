@@ -14,10 +14,10 @@ app.set('view engine','hbs');
 //   console.log(now);
 //   next();
 // });
-
-app.use((req,res,next)=>{
-  res.render("maintenance.hbs")
-})
+// 
+// app.use((req,res,next)=>{
+//   res.render("maintenance.hbs")
+// })
 
 app.get('/',(req,res)=>{
   res.render("home.hbs",{
